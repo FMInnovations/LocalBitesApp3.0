@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Local Bites Delivery',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Color(0xFFF5F5F3),
+      ),
       routes: {
         "/": (context) => HomePage(),
       },
